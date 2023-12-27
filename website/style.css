@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: Linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url("jon.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.navbar  {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgba(1, 1, 1, 0.80);
+    background-color: #0f0a0a;
+    position: fixed;
+    z-index: 10;
+
+
+}
+.navbar  a{
+    color: white;
+}
+.logo {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.navbar ul {
+    display: flex;
+}
+.navbar ul li a{
+    color: #fff;
+    display: inline-block;
+    font-size: 1.3rem;
+    margin: 0 1rem;
+    position: relative;
+}
+.navbar ul li a:hover{
+    color: rgb(26, 7, 70);
+    /* text-transform: uppercase; */
+}
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after {
+    width: 100%;
+}
+.content {
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    transform: translate ;
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 80px;
+}
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+/* section */
+
+.section {
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    background-color: #070505;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.section-visimisi  {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    background-color: #070505;
+}
+.section-1,
+.section-2 {
+    flex: 1;
+    padding: 2rem;
+    background-color: #070505;
+}
+.section-1 h1,
+.section-2 h1 {
+    text-align: center;
+    color: rgb(232, 233, 237);
+    padding: 1rem;
+    text-align: center;
+    text-shadow: 0px 5px 15px rgba(109, 0, 0, 0.411);
+}
+.section-1 p,
+.section-2 p {
+    padding: 1rem;
+    color: rgb(251, 247, 247);
+    padding: 1rem;
+    background-color: rgba(0, 0, 255, 0.114);
+    border-radius: 1rem;
+    border: 2px solid hsl(211, 100%, 90%);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.194);
+}
+.section-3,
+.section-4 {
+    flex: 1;
+    padding: 2rem;
+}
+.section-3 h1,
+.section-4 h1 {
+    text-align: center;
+    color: rgb(240, 240, 243);
+    padding: 1rem;
+    text-align: center;
+    text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.463);
+}
+.section-3 p,
+.section-4 p {
+    padding: 1rem;
+    color: rgb(238, 234, 234);
+    padding: 1rem;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.194);
+}
+img {
+    margin: 0;
+    width: 30%;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+}
+.img {
+    float: right;
+    width: 30%;
+}
+
+
+.footer {
+    padding: 1ren;
+    color: #ffffff;
+}
+.footer p{
+    
+    padding: 1ren;
+    color: #ffffff;
+    padding: 1rem;
+    background-color: #7f92b2;
+
+}
+.section-Kontak h2 {
+    text-align: center;
+    width:100%;
+    padding: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    color:  rgb(248, 248, 249);
+}
+
+.ig{
+    color: rgb(80, 53, 53);
+}
+.ig:hover {
+    color: rgb(0, 98, 255);
+}
+
+.section-2{
+    background-color: #070505;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.section-2 div img{
+    padding: 1rem;
+    border-radius: 2rem;
+    width:300px;
+}
